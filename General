@@ -1,9 +1,12 @@
 //-2^31 = -2147483648
-/**
-*Any integer variable cannot store any value beyond this limit. Upon doing so, the memory will overflow and the value will get negative.
-*/
-Interger.MIN_VALUE = -2147483648;
+  Interger.MIN_VALUE = -2147483648;
+
+//*Any integer variable cannot store any value beyond this limit. Upon doing so, the memory will overflow and the value will get positive.
+  Trying to initialize a N with value Integer.MIN_VALUE - 1
+  N = 2147483647
 
 // 2^31-1 = 2147483647
-Interger.MAX_VALUE = 2147483647;
-
+  Interger.MAX_VALUE = 2147483647;
+//Any integer variable cannot store any value below this limit. Upon doing so, the memory will overflow and the value will get negative.
+  Trying to initialize a N with value Integer.MAX_VALUE + 1 
+  N = -2147483648
